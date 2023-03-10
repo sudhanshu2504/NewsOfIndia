@@ -217,8 +217,6 @@
         font-size: 0.75 rem;
         margin-top: 0.5rem;
     }
-
-
     .footer-r{
         margin: 0.25rem;
         padding-left: 1rem;
@@ -233,4 +231,8 @@
         font-size: 1.5rem;
         margin-top: 0.75rem;
     }
+    .noinfo{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
     }
