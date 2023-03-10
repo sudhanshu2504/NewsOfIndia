@@ -198,6 +198,7 @@
     }
     .footer-l{
         margin: 0.25rem;
+        padding-left:1rem;
         height: auto;
         width: auto;
         color: aliceblue;
