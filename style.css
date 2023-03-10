@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Arvo:wght@700&family=Babylonica&family=Calistoga&family=DynaPuff:wght@400;600&family=Itim&family=Michroma&family=Poppins:wght@300&display=swap');
+#logo{
+    height: 70px;
+    width: 70px;
+}
+.hamburger{
+    display: none;
+}
+.hm{
+    display: none;
+}
+#navv {
+    color: rgb(0, 0, 0);
+}
+.nav-item {
+    font-family: itim;
+    font-size: 1.5rem;
+}
+
+.hr{
+    margin-top: -15px;
+    background-color: black;
+    height: 3px;
+}
+.nav-item :hover{
+    transition: 1s ease-in;
+    border-bottom: 3px solid black;
+}
+.hr{
+    margin-top: 0 !important;
+}
+.dt {
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-family: itim;
+    font-size: x-large;
+}
+.heading{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    font-family: itim;
+    background-color: rgba(240, 248, 255, 0.403);
+
+}
+.content{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:contain;
+    height: 60vh;
+    width: auto;
+    opacity: 80%;
+    padding-top: 50vh;
+}
+.tf{
+    text-align: center;
+    font-family: michroma ;
+    font-weight: bold;
+}
+.feeds{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overscroll-behavior-block:auto;
+}
+.card-text{
+    font-family: itim;
+    font-size: larger;
+}
+
+/* ----------------------FOOTER------------------------------ */
+.footer{
+    height: auto;
+    width: auto;
+    background-color: black;
+    padding: 3rem;
+    display: flex;
+    position: sticky;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer a  :hover{
+    text-decoration: none;
+    font-weight:bolder;
+}
+.flogo{
+    height: 8.5rem;
+    width: 10rem;
+}
+.noinfo{
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: itim;
+}
+
+.footer-l{
+    margin: 0.5rem;
+    height: 45vh;
+    width: 20vw;
+    color: aliceblue;
+    line-height: 20px;
+}
+.footer-l .p{
+    height: auto;
+    width: auto;
+}
+.footer-m{
+    margin: 0.5rem;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    height: 45vh;
+    width: 35vw;
+    color: aliceblue;
+}
+.footer-m ul{
+    list-style-type: none;
+}
+.footer-m h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: aboreto;
+}
+.footer-m h3{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    font-family: itim;
+}
+.footer-r{
+    margin: 0.5rem;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    height: 45vh;
+    width: 20vw;
+    color: aliceblue;
+}
+.footer-r h2{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: aboreto;
+}
+.footer-r h3{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    font-family: itim;
+}
+
+.credits{
+    font-family: itim;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px){
+    .navbar{
+        flex-wrap: nowrap !important;
+    }
+    .nav-item{
+        display: none;
+    }
+    .nav-itemm{
+        font-family: itim;
+        font-size: 1.5rem;
+    }
+    .nav-itemm :hover{
+        transition: 0.5s ease-in;
+        border-bottom: 3px solid black;
+    }
+    .hamburger{
+        display: block;
+        padding-right: 0 !important;
+    }
+    .hm{
+        display: block;
+    }
+    .dt{
+        font-size: medium;
+        /* flex-direction: column; */
+        align-items: center;
+    }
+    .content{
+        height: 25vh;
+        padding-top: 17vh;
+    }
+    .heading{
+        font-size: large;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-l{
+        margin: 0.25rem;
+        height: auto;
+        width: auto;
+        color: aliceblue;
+        line-height: 10px;
+    }
+    .footer-m{
+        margin: 0.25rem;
+        padding-top: 0.75rem;
+        padding-left: 1rem;
+        height: auto;
+        width: auto;
+    }
+    .footer-m h2{
+        font-size: 1.5rem;
+    }
+    .footer-m h3{
+        font-size: 0.75 rem;
+        margin-top: 0.5rem;
+    }
+
+
+    .footer-r{
+        margin: 0.25rem;
+        padding-left: 1rem;
+        height: auto;
+        width: auto;
+        line-height: 10px;
+    }
+    .footer-r h2{
+        font-size: 1.5rem;
+    }
+    .footer-r h3{
+        font-size: 1.5rem;
+        margin-top: 0.75rem;
+    }
+    }
