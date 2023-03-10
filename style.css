@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Arvo:wght@700&family=Babylonica&family=Calistoga&family=DynaPuff:wght@400;600&family=Itim&family=Michroma&family=Poppins:wght@300&display=swap');
+*{
+    scroll-behaviour: smooth;
+}
 #logo{
     height: 70px;
     width: 70px;
